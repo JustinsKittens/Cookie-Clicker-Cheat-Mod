@@ -1,5 +1,5 @@
-# Crustulum
-Crustulum is a *cheating* add-on for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/). It enables a variety of features to help those wishing to make aspects of the game easier. Some features provided are also done by other tools or the built in debug menus, however, this add-on simplifies some of those and does not award the "Cheated cookies taste awful" achievement.
+# Cheat Menu
+Cheat Menu is a *cheating* add-on for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/). It enables a variety of features to help those wishing to make aspects of the game easier. Some features provided are also done by other tools or the built in debug menus, however, this add-on simplifies some of those and does not award the "Cheated cookies taste awful" achievement.
 
 I created this add-on because it became tiresome pasting in a few snippets of code every time I reloaded the page. It's mostly for personal use but I am (obviously) sharing it anyway. No warranty of any kind is offered. I added features to this that I do not use so some things may not all be fully tested.
 
@@ -10,7 +10,7 @@ I highly recommend not using all of the features provided as it will pretty much
 ### Basics
 * Remembers settings.
 * Self-serve. Nothing is forced on you. No options are enabled by default.
-* Compatible with [Cookie Monster](https://github.com/Aktanusa/CookieMonster), recommended to load Crustulum last.
+* Compatible with [Cookie Monster](https://github.com/Aktanusa/CookieMonster), recommended to load Cheat Menu last.
 * Tested only on Chrome.
 
 ### Automation
