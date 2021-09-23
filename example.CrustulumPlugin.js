@@ -1,14 +1,13 @@
 /**
- * Sample Plugin for Crustulum
+ * Sample Plugin for Cheat Menu
  * 
- * Adds a button to give you 10 sugar lumps at a time.
- * 
- * Load this file and then load Crustulum
+ *
+ * Load this file and then load Cheat Menu
  */
 
-if (typeof CrustulumPlugins !== 'object') CrustulumPlugins = {};
+if (typeof MenuPlugins !== 'object') MenuPlugins = {};
 
-CrustulumPlugins['moreLumps'] = { // Functions don't need defined if they aren't used -- defined here for example only
+CrMenuPlugins['moreLumps'] = { // Functions don't need defined if they aren't used -- defined here for example only
     Init: () => { // Ran after Crustulum inits
     },
     Loaded: () => { // Ran after Crustulum is loaded but before Init() is called
@@ -20,12 +19,12 @@ CrustulumPlugins['moreLumps'] = { // Functions don't need defined if they aren't
             Game.gainLumps(10);
         },
     },
-    Game: { // Ran when Crustulum runs them
+    Game: { // Ran when Cheat Menu runs them
         UpdateMenu: (fragment) => { 
-            fragment.appendChild(Crustulum.Menu.subheading('Crustulum: More Lumps Add-on'));
-            fragment.appendChild(Crustulum.Menu.actionButton('giveSugarLump','Give Sugar Lump','Gives you a sugar limp.', Crustulum.Plugins['moreLumps'].Actions.moreSugarLumps));
+            fragment.appendChild(Cheat.Menu.subheading('Crustulum: More Lumps Add-on'));
+            fragment.appendChild(Cheat.Menu.actionButton('giveSugarLump','Give Sugar Lump','Gives you a sugar limp.', Cheat.Plugins['moreLumps'].Actions.moreSugarLumps));
         },
     },
 };
 
-/* cSpell:ignore Crustulum */
+/* cSpell:ignore Cheat */
